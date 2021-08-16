@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>编组 17</title>
+    <desc>Created with Sketch.</desc>
+    <g id="HSE-new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HSE" transform="translate(-196.000000, -871.000000)">
+            <g id="编组-17" transform="translate(195.555556, 870.000000)">
+                <g id="编组-5" transform="translate(0.444444, 1.000000)">
+                    <circle id="椭圆形" fill-opacity="0.3" fill="#FF1000" cx="13.5" cy="13.5" r="13.5"></circle>
+                    <circle id="椭圆形" fill="#AD180E" cx="13.5" cy="13.5" r="11.5"></circle>
+                    <circle id="椭圆形" fill="#F10000" cx="13.5" cy="13.5" r="7.5"></circle>
+                </g>
+                <g id="编组-9" transform="translate(11.444444, 0.000000)"></g>
+                <path d="M13.6667011,10 L13.6667011,10 C14.5305886,10 15.2309078,10.7003192 15.2309078,11.5642067 C15.2309078,11.6250641 15.2273563,11.6858695 15.2202712,11.746313 L14.7572392,15.6964928 C14.6923974,16.2496656 14.2236614,16.6666667 13.6667011,16.6666667 L13.6667011,16.6666667 C13.1097409,16.6666667 12.6410048,16.2496656 12.576163,15.6964928 L12.1131311,11.746313 C12.0125565,10.8883 12.6265818,10.1112112 13.4845948,10.0106367 C13.5450383,10.0035516 13.6058438,10 13.6667011,10 Z" id="矩形" fill="#FFFFFF"></path>
+                <circle id="椭圆形" fill="#FFFFFF" cx="13.6666667" cy="18.8888889" r="1.11111111"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

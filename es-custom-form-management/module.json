@@ -1,0 +1,10 @@
+{
+  "name": "dynamic-content-demo",
+  "router": "es-dynamic-content-demo",
+  "assets": [
+  ],
+  "styles": [
+  ],
+  "scripts": [
+  ]
+}

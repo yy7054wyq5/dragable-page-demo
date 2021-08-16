@@ -1,0 +1,9 @@
+<form
+  *ngIf="configerForm"
+  nz-form
+  [nzLayout]="'inline'"
+  [formGroup]="configerForm"
+>
+  列数：
+  <input type="text" nz-input formControlName="size" />
+</form>

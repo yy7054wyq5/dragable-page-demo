@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./es-variable";
+@import "./plugins/es-layout-form-config.scss";
+@import "./plugins/general-element.scss";
+
+@font-face {	
+	font-family: 'HoneywellSans-Medium';
+	src: url('../fonts/honeywell/HoneywellSansWeb-Medium.woff');
+}
+
+@font-face {
+	font-family: 'HoneywellSans-Bold';
+	src: url('../fonts/honeywell/HoneywellSansWeb-Bold.woff');
+}
+
+body {
+	font-family: 'HoneywellSans-Medium', Arial, sans-serif !important;
+	color: #fff;
+	font-size: 1rem;
+	height: 100%;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure,
+footer, header, menu, nav, section, time, mark, audio, video,
+details {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+button:focus {
+	outline: none;
+}

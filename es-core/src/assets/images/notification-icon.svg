@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Icon / Notification / Information / 32px@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,33.8888889 C27.6706215,33.8888889 33.8888889,27.6706215 33.8888889,20 C33.8888889,12.3293785 27.6706215,6.11111111 20,6.11111111 C12.3293785,6.11111111 6.11111111,12.3293785 6.11111111,20 C6.11111111,27.6706215 12.3293785,33.8888889 20,33.8888889 Z M20,36.6666667 C10.7952542,36.6666667 3.33333333,29.2047458 3.33333333,20 C3.33333333,10.7952542 10.7952542,3.33333333 20,3.33333333 C29.2047458,3.33333333 36.6666667,10.7952542 36.6666667,20 C36.6666667,29.2047458 29.2047458,36.6666667 20,36.6666667 Z M18.6111111,17.2222222 L21.3888889,17.2222222 L21.3888889,28.3333333 L18.6111111,28.3333333 L18.6111111,17.2222222 Z M18.6111111,11.6666667 L21.3888889,11.6666667 L21.3888889,14.4444444 L18.6111111,14.4444444 L18.6111111,11.6666667 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon-/-Notification-/-Information-/-32px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="Icon-/-Tint-/-Informational" mask="url(#mask-2)" fill="#1274B7">
+            <g id="*Style*-/-Color-/-Action-/-Primary">
+                <rect id="Light-Theme" x="0" y="0" width="40.1606426" height="40.1606426"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="31px" viewBox="0 0 22 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>HSE</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Frame-Expand-1" transform="translate(-29.000000, -273.000000)" fill="#FFFFFF">
+            <g id="HSE" transform="translate(29.000000, 273.000000)">
+                <path d="M22,17.0728426 C22,12.1365088 18.523219,6.66515346 11.6631317,0.587497828 L11,1.42108547e-13 L10.3368683,0.587497828 C3.47678097,6.66515346 0,12.1365088 0,17.0728426 C0,24.0984987 4.4946393,28.3360005 11,28.3360005 C17.5053607,28.3360005 22,24.0984987 22,17.0728426 Z M20,17.0728426 C20,22.9667275 16.4262748,26.3360005 11,26.3360005 C5.57372516,26.3360005 2,22.9667275 2,17.0728426 C2,12.9864691 4.97197932,8.16747005 11,2.67994663 C17.0280207,8.16747005 20,12.9864691 20,17.0728426 Z" id="椭圆形" fill-rule="nonzero"></path>
+                <rect id="矩形" x="10" y="9.33600053" width="2" height="21"></rect>
+                <polygon id="直线" fill-rule="nonzero" points="10.833113 15.0231313 15.5506939 12.149313 15.0304502 11.2952952 10.3128692 14.1691135"></polygon>
+                <polygon id="直线" fill-rule="nonzero" points="10.8099242 21.0170814 18.7139701 16.5621692 18.222965 15.6910125 10.3189191 20.1459247"></polygon>
+                <polygon id="直线" fill-rule="nonzero" transform="translate(9.069609, 13.201497) scale(-1, 1) translate(-9.069609, -13.201497) " points="7.0786622 15.1132337 11.6110468 12.1246015 11.0605564 11.28976 6.52817181 14.2783922"></polygon>
+                <polygon id="直线" fill-rule="nonzero" transform="translate(7.516445, 18.317954) scale(-1, 1) translate(-7.516445, -18.317954) " points="3.80992418 20.9809886 11.7139701 16.5260763 11.222965 15.6549196 3.31891911 20.1098319"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

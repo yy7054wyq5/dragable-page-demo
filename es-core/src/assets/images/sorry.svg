@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>编组</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50.0209343%" fx="50%" fy="50.0209343%" r="66.0496179%" gradientTransform="translate(0.500000,0.500209),rotate(90.000000),scale(1.000000,1.033876),translate(-0.500000,-0.500209)" id="radialGradient-1">
+            <stop stop-color="#F8F4F4" offset="0%"></stop>
+            <stop stop-color="#EDEBEB" offset="99.9841639%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50.0209343%" fx="50%" fy="50.0209343%" r="66.0391581%" gradientTransform="translate(0.500000,0.500209),rotate(90.000000),scale(1.000000,1.033876),translate(-0.500000,-0.500209)" id="radialGradient-2">
+            <stop stop-color="#C9C8C8" offset="0%"></stop>
+            <stop stop-color="#EDEBEB" offset="99.9841639%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="33.8561701%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0.0158361486%"></stop>
+            <stop stop-color="#E9E6E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="permission2" transform="translate(-646.000000, -396.000000)">
+            <g id="编组" transform="translate(646.000000, 396.000000)">
+                <circle id="椭圆形" fill="url(#radialGradient-1)" cx="75" cy="75" r="75"></circle>
+                <circle id="椭圆形" fill="url(#radialGradient-2)" cx="75.375" cy="75.375" r="69.375"></circle>
+                <circle id="椭圆形-2" stroke="#AFAEAE" stroke-width="2" fill="url(#linearGradient-3)" cx="75.375" cy="75.375" r="62.75"></circle>
+                <circle id="椭圆形" fill="#A0A0A0" cx="64.067654" cy="63.9913546" r="5.625"></circle>
+                <circle id="椭圆形" fill="#A0A0A0" cx="84.317654" cy="63.9913546" r="5.625"></circle>
+                <path d="M93.75,85.1473153 C93.5309268,84.9381299 91.6082912,83.25484 90.8345548,82.6751368 C86.034517,79.0788249 80.3599847,77 74.2798656,77 C66.8683718,77 60.1068631,80.0889098 54.75,85.25" id="形状" stroke="#979797" stroke-width="4" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

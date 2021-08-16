@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / Caret / Up / 16px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9 1.70710678 1.35355339 9.35355339 0.646446609 8.64644661 9 0.292893219 17.3535534 8.64644661 16.6464466 9.35355339"></polygon>
+    </defs>
+    <g id="Report" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="report-configuration11" transform="translate(-1858.000000, -531.000000)">
+            <g id="Icon-/-Caret-/-Up-/-16px" transform="translate(1867.000000, 536.000000) scale(1, -1) translate(-1867.000000, -536.000000) translate(1855.000000, 524.000000)">
+                <g id="Shape" transform="translate(3.000000, 7.000000)">
+                    <g id="Tint">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#fff" fill-rule="nonzero" transform="translate(9.000000, 4.823223) scale(1, -1) rotate(-180.000000) translate(-9.000000, -4.823223) " xlink:href="#path-1"></use>
+                        <g id="Icon-/-Tint-/-Actionable---Light-Background-/-Interactive" mask="url(#mask-2)">
+                            <g transform="translate(-8.000000, -12.000000)" id="*Style*-/-Color-/-Action-/-Secondary">
+                                <g>
+                                    <rect id="Light-Theme" fill="#fff" x="0" y="0" width="34" height="34"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="28px" viewBox="0 0 25 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>编组 11</title>
+    <desc>Created with Sketch.</desc>
+    <g id="APP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm2" transform="translate(-51.000000, -460.000000)">
+            <g id="编组-16" transform="translate(26.000000, 427.000000)">
+                <g id="编组-11" transform="translate(25.000000, 29.000000)">
+                    <g id="编组-14" transform="translate(0.500000, 8.000000)" fill="#DE2929">
+                        <path d="M20,0 C22.209139,-4.05812251e-16 24,1.790861 24,4 L24,20 C24,22.209139 22.209139,24 20,24 L4,24 C1.790861,24 2.705415e-16,22.209139 0,20 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L20,0 Z M11.9980952,14.6666667 C11.2406762,14.6666667 10.6266667,15.2806762 10.6266667,16.0380952 C10.6266667,16.7955143 11.2406762,17.4095238 11.9980952,17.4095238 C12.7555143,17.4095238 13.3695238,16.7955143 13.3695238,16.0380952 C13.3695238,15.2806762 12.7555143,14.6666667 11.9980952,14.6666667 Z M13.7085714,6.66666667 L10.28,6.66666667 L11.08,13.5238095 L12.9085714,13.5238095 L13.7085714,6.66666667 Z" id="形状结合"></path>
+                    </g>
+                    <text id="SOS" font-family="PingFangSC-Semibold, PingFang SC" font-size="12" font-weight="500" fill="#F7B500">
+                        <tspan x="0.038" y="13">SOS</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

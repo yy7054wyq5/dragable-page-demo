@@ -1,0 +1,12 @@
+{
+    "language":[
+        {
+            "localLang":"简体中文",
+            "type": "zh"
+        },
+        {
+            "localLang":"English",
+            "type": "en"
+        }
+    ]
+}

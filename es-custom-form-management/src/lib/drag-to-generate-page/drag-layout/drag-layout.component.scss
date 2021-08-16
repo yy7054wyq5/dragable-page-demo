@@ -1,0 +1,69 @@
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+$layoutPrefix: drag-layout;
+
+.#{$layoutPrefix}-table-header-container {
+  display: flex;
+  > div {
+    flex: 1;
+    border: 1px solid black;
+    background-color: #ccc;
+    color: black;
+  }
+}
+
+.#{$layoutPrefix}-container {
+  min-height: 200px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.#{$layoutPrefix}-row {
+  min-height: 40px;
+  position: relative;
+  &:hover {
+    .#{$layoutPrefix}-row-btns {
+      display: block;
+    }
+  }
+}
+.#{$layoutPrefix}-cell-container {
+  display: flex;
+  min-height: 40px;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.#{$layoutPrefix}-row-btns {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 2px;
+  display: none;
+  background-color: #fff;
+  i {
+    cursor: pointer;
+  }
+}
+
+.#{$layoutPrefix}-cell {
+  flex: 1;
+  border: 1px solid #ccc;
+}
+.#{$layoutPrefix}-cell-item {
+  display: flex;
+  position: relative;
+  .btns {
+    position: absolute;
+    right: 0;
+    top: 0;
+    i {
+      cursor: pointer;
+      margin-right: 5px;
+    }
+  }
+}

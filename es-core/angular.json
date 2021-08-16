@@ -1,0 +1,325 @@
+{
+  "$schema": "../node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "es-core": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {},
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "preserveSymlinks": true,
+            "outputPath": "../dist/es-core",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              },
+              {
+                "glob": "**/*",
+                "input": "../node_modules/es-mxgraph/src",
+                "output": "/assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "../node_modules/es-mxgraph-editor",
+                "output": "/assets"
+              },
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "../node_modules/es-core-shared/assets",
+                "output": "/assets"
+              },
+              {
+                "glob": "**/*",
+                "input": "../es-dynamic-content-demo/src/assets/dynamic-content-demo",
+                "output": "/assets/dynamic-content-demo"
+              },
+              {
+                "glob": "**/*",
+                "input": "../node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
+            ],
+            "styles": [
+              "../node_modules/ng-zorro-antd/src/ng-zorro-antd.css",
+              {
+                "input": "../node_modules/video.js/dist/video-js.css",
+                "lazy": true,
+                "bundleName": "videocss"
+              },
+              "src/assets/css/es-base.scss"
+            ],
+            "scripts": [
+              {
+                "input": "../node_modules/es-core-shared/assets/js/mxgraph.conf.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Init.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/deflate/pako.min.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/deflate/base64.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/jscolor/jscolor.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/sanitizer/sanitizer.min.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph/mxClient.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/EditorUi.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Editor.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Graph.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Sidebar.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Format.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Shapes.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Actions.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Menus.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Toolbar.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              {
+                "input": "../node_modules/es-mxgraph-editor/js/Dialogs.js",
+                "lazy": true,
+                "bundleName": "graph"
+              },
+              "../node_modules/jquery/dist/jquery.min.js",
+              "../node_modules/echarts/dist/echarts.min.js",
+              {
+                "input": "../node_modules/video.js/dist/video.min.js",
+                "lazy": true,
+                "bundleName": "video"
+              },
+              {
+                "input": "../node_modules/videojs-flash/dist/videojs-flash.min.js",
+                "lazy": true,
+                "bundleName": "video"
+              },
+              "../node_modules/sockjs-client/dist/sockjs.js",
+              "../node_modules/@stomp/stompjs/lib/stomp.js"
+            ],
+            "es5BrowserSupport": true
+          },
+          "configurations": {
+            "qa": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.js",
+                  "with": "src/environments/environment.qa.js"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "8mb",
+                  "maximumError": "12mb"
+                }
+              ]
+            },
+            "dev": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.js",
+                  "with": "src/environments/environment.dev.js"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "8mb",
+                  "maximumError": "12mb"
+                }
+              ]
+            },
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.js",
+                  "with": "src/environments/environment.prod.js"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "8mb",
+                  "maximumError": "12mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "es-core:build",
+            "proxyConfig": "../proxy.conf.json"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "es-core:build:production"
+            },
+            "qa": {
+              "browserTarget": "es-core:build:qa"
+            },
+            "dev": {
+              "browserTarget": "es-core:build:dev"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "es-core:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "src/tsconfig.spec.json",
+            "karmaConfig": "src/karma.conf.js",
+            "styles": [
+              "../node_modules/ng-zorro-antd/src/ng-zorro-antd.css",
+              "src/assets/css/es-base.scss"
+            ],
+            "scripts": [],
+            "assets": ["src/favicon.ico", "src/assets"]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
+            "exclude": ["**/node_modules/**"]
+          }
+        }
+      }
+    },
+    "es-core-e2e": {
+      "root": "e2e/",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "e2e/protractor.conf.js",
+            "devServerTarget": "es-core:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "es-core:serve:production"
+            },
+            "qa": {
+              "devServerTarget": "es-core:serve:qa"
+            },
+            "dev": {
+              "devServerTarget": "es-core:serve:dev"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "e2e/tsconfig.e2e.json",
+            "exclude": ["**/node_modules/**"]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "es-core"
+}

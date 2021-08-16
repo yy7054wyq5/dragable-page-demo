@@ -1,0 +1,610 @@
+{
+	"englishLang": "English",
+	"chineseLang": "Chinese",
+	"common": {
+		"copyRight": "Terms of Service Copyright c 2019 Honeywell International Inc.",
+		"cancel": "Cancel",
+		"confirm": "Confirm",
+		"delete": "Delete",
+		"notDelete": "Don't Delete",
+		"add": "Add",
+		"save":"Save",
+		"search":"Search",
+		"description":"Description",
+		"filePath": "File path",
+		"select": "Select",
+		"operation": "Operation",
+		"create": "Create",
+		"help": "Help",
+		"baseInfo": "Basic Info",
+		"name": "Name",
+		"reset":"Reset",
+		"reelect": "Reelect",
+		"allReelect": "All Reelect",
+		"continue":"Continue",
+		"goBack": "Return",
+		"close":"Close",
+		"noData": "No Data",
+
+		"selector": {
+			"choose": "Choose"
+		},
+
+		"createInfo": {
+			"createdTime": "Created Time:",
+			"lastUpdateTime": "Last Updated Time:",
+			"createdBy": "Created By:",
+			"lastUpdateBy": "Last Updated By:"
+		},
+		"leaveModal": {
+			"leaveTips": "Are you sure you want to leave current page without save changes?",
+			"noJump": "Don't Leave",
+			"notSaveAndJump": "Leave without Save",
+			"saveAndJump": "Save and Leave"
+		},
+		"deviceProperty": {
+			"dynamic":"Dynamic",
+			"calculate":"Calculate",
+			"tank_level": "Tank Level",
+			"mass": "Mass",
+			"net_volume": "Net Volume",
+			"gross_volume": "Gross Volume",
+			"density": "Density",
+			"flow_rate": "Flow Rate",
+			"temperature": "Temperature",
+			"name": "Name",
+			"product": "Product",
+			"capacity": "Capacity",
+			"status": "Status",
+			"on": "On",
+			"off": "Off",
+			"error": "Error",
+			"open": "Open",
+			"close": "Close",
+			"tank": "Tank",
+			"pump": "Pump",
+			"valve": "Valve",
+			"zone": "Zone"
+		},
+		"pageTitle": {
+		},
+		"editBox":{
+			"save":"Save",
+			"cancel":"Cancel"
+		},
+		"operationLog":"Operation Log",
+		"pipe":{
+			"hourSuffix":"hour",
+			"minSuffix":"min",
+			"lessThanOneMin":"<1 min"
+		},
+		"form":{
+			"emailFormatError":"Invalid Email Format!",
+			"mobileFormatError":"Invalid Phone Number"
+		},
+		"alarm": {
+			"urgent": "Urgent",
+			"high": "High",
+			"low": "Low",
+			"ack": "Acknowledge",
+			"ackAll": "Acknowledge All",
+			"resolve": "Resolve"
+		},
+		"filter": {
+			"urgent": "Urgent",
+			"high": "High",
+			"low": "Low",
+			"acknowledged": "Acknowledged",
+			"unAcknowledged": "UnAcknowledged",
+			"resolved": "Resolved",
+			"unResolved": "UnResolved",
+			"SCADA_AE": "SCADA",
+			"Inspection_Mpo": "MPO",
+			"gis_cross_border_alarm_service": "Crossborder Alarm Service",
+			"gis_overcrowding_alarm_service": "Overcrowding Alarm Service",
+			"gis_stop_alarm_service": "Stop Alarm Service",
+			"DANGER_SOURCE": "Danger Source",
+			"gis_position_service": "Position Service",
+			"resetAll": "Reset All",
+			"confirm": "Confirm",
+			"reset": "Reset",
+			"priorities": "Priority",
+			"systems": "System",
+			"isAcknowledged": "Acknowledge Status",
+			"status": "Resolve Status"
+		},
+		"notifyMessage":{
+			"title":{
+				"error":"Notice",
+				"success":"Success",
+				"warning":"Warning"
+			},
+			"content": {
+				"createSuccess": "Create Success!",
+				"deleteSuccess": "Delete Success!",
+				"addSuccess": "Add Success!",
+				"editSuccess": "Edit Success!",
+				"saveSuccess": "Save Success!",
+				"updateSuccess": "Update Success!",
+				"uploadSuccess": "Upload Success!",
+				"createError": "Create Failed!",
+				"deleteError": "Delete Failed!",
+				"saveError": "Save Failed!",
+				"noChange": "No Change Made!",
+				"noVideo": "No Videos Found"
+			},
+			"errorMessage":{
+				"-40000":"Resource File Not Exists！",
+				"-40001":"Invalid Parameter！",
+				"-40003":"No Permission！",
+				"-40400":"Resource Not Found!",
+				"-40105": "System had Initialized.",
+				"-50000":"Server Error ,Please Contact Administrator!",
+				"-500001":"No Property Configuration",
+				"-500002":"Gateway Service Not Exists！",
+				"-500003":"Tank Exists！",
+				"-500004":"Tank Not Exists！",
+				"-500005":"Device Exists！",
+				"-500006":"Device Not Exists！",
+				"-500007":"Command Add Failed！",
+				"-500008":"Transaction Not Exists！",
+				"-500009":"Invalid Operation！",
+				"-500010":"Device with Same Code or Name Exists！",
+				"-500011":"Duplicate Device Name！",
+				"-500012":"System Device Can't be Deleted！",
+				"-500013":"Gateway Not Exists！",
+				"-500014":"Register Failed！",
+				"-500015":"Invalid Gateway Entity！",
+				"-500016":"User Not Exists！",
+				"-500017":"User Already Exists！",
+				"-500018":"Role Not Exists！",
+				"-500019":"Connector Target Not Exists！",
+				"-500020":"Internal Device Can't be Deleted!",
+				"-500021":"Connector Register File Invalid！",
+				"-500022":"Reqeusted Data Not Exists！",
+				"-500023":"Can't Delete Category when Service Exists！",
+				"-500024":"Category Exists！",
+				"-500025":"Rule Exists！",
+				"-500026":"Service Not Exists！",
+				"-500027":"Picture Type Alreay Exists！",
+				"-500028":"Duplicate Name！",
+				"-500029":"Step Name Already Exists！",
+				"-500030":"Step Not Exists！",
+				"-500031":"Field Name Exists！",
+				"-500032":"Area Name Exists！",
+				"-500033":"Device Already Included in Current Area！",
+				"-500034":"Device Included in Other Area！",
+				"-500035":"Name Duplicated！",
+				"-500036":"Can't Delete when There's Related Tank！",
+				"-500037":"Tank Group Name Duplicated！",
+				"-500038":"Workflow Step Not Exists！",
+				"-500039":"Invalid Step Status ！",
+				"-500040":"No Permission！",
+				"-500041":"Workflow Not Exists！",
+				"-500042":"Workflow Not Exists！",
+				"-500043":"Command Executing！",
+				"-500044":"Duplicate Role Name！",
+				"-500045":"Product Not Exists！",
+				"-500046":"Tank Not Exists！",
+				"-500047":"Tank Product Not Match Group Product！",
+				"-500048":"Planned Amount Exceed Tank Group Capacity！",
+				"-500049":"Product of Order Not Exists！",
+				"-500050":"Planned Amount Exceed Order Amount！",
+				"-500051":"Planned Date Range Not Fit Order Date Range！",
+				"-500052":"Plan Not Exists！",
+				"-500053":"Can't Delete Tank Group when There's Related Plan！",
+				"-500054":"Step Not Complete！",
+				"-500055":"Email Address is Used by Another Account！",
+				"-500056":"Service Already Registered！",
+				"-500057":"Plan Detail Not Exists！",
+				"-500058":"Connector Already Registered！",
+				"-500059":"Tank Group Capacity Invalid！",
+				"-500060":"Default Role Not Exists！",
+				"-500061":"User Already Exists！",
+				"-500062":"Product Name Already Exists!",
+				"-500063":"Product Code Already exists!",
+				"-500064":"Product Has been Binded With Tank Can Not Delete!",
+				"-500065":"Gateway is not Active!",
+                "-500066":"User Or Email Error",
+				"-500067": "Date Format Error!",
+				"-500068": "Process Type Params is Empty!",
+				"-500069": "Process Type Code Duplicated!",
+				"-500070": "Process Type Name Duplicated!",
+				"-500071": "Has Process Diagram in this Type,Please Delete Process Diagram First",
+				"-500072": "Sending Email Timeout.",
+				"-500073": "Cannot Delete NVR Channel, Please Remove Related Devices First.",
+				"-500074": "Cannot Delete Because The Category Which Still Has Sub Workflow.",
+				"-500075": "Assign Device to Channel Failed!",
+				"-500076": "WorkFlow Category code Dunplicated",
+				"-500077": "WorkFlow Category name Dunplicated",
+				"-500078": "Workflow Config Name Dunplicated",
+				"-500079": "Get NVR Host Failed.",
+				"-500080": "The Layout Element Type is not Correct",
+				"-500081": "Duplicate Layout Element Name",
+				"-500082": "The Target Has Had Workflow Already!",
+				"-500083": "There are Unfinished Workflow Instance that Cannot be Updated",
+				"-500084": "The NVR Name has Existed.",
+				"-500085": "Rule doesn't exist.",
+				"-500086": "Rule has been related with a alarm level!",
+				"-500087": "Process not Exists.",
+                "-500088": "Scheduler Task Already Existed.",
+                "-500089": "Scheduler Task Code Already Existed.",
+                "-500090": "Scheduler Task Update Failed.",
+                "-500091": "Scheduler Task Category Name Already Exists.",
+                "-500092": "Copy failed, Source File Not Existed.",
+				"-500093": "Product Not Exist with This Name!",
+				"-500094": "Application Name Exists!",
+				"-500095": "Application Name is Empty!",
+				"-500097": "Default Internal User Role has not Initialize!",
+				"-500098": "Initialize Metadata does not Exists!",
+				"-500099": "Process Must Contains Tank!",
+                "-500201": "Datacube Group Name has Already Exists！",
+				"-500202": "Datacube Name has Already Exists！",
+				"-500203": "Procedure does not Already Exists！",
+				"-500204": "Tank has been Used By Other Processes！",
+                "-500205": "Report Name Already Exists!",
+                "-500206": "Duplicate Report Code!",
+                "-500207": "Duplicate Report Category Name!",
+				"-500208": "Can Not Delete Application Service Group Created by System",
+				"-500209": "Can Not Delete Application Service Group Which has Application Services",
+                "-500210": "Application Service Group Name Duplicate",
+                "-500211": "Report does not Configure Any Cube",
+                "-500212": "Export Excel Failed",
+                "-500213": "Import Excel Failed",
+                "-500214": "Exist Duplicate Data",
+                "-500219": "Device Name Cannot be Null",
+                "-500223": "Cannot Delete the Group has Assigned Rules!",
+                "-500224": "The Cube is Not in Submitted Status",
+				"-500225": "Cube is Used by Report Cannot Delete",
+				"-500226": "Cube is Used by Report Cannot Update Status",
+				"-500227": "Cannot Find Report Code in System",
+				"-500228": "Cannot Change Working Process",
+				"-500229": "The Fence Name is Already Exists.",
+				"-500230": "Cannot Delete Binding Device",
+				"-500231": "GIS Access Group Name Already Exists",
+				"-500232": "Cannot Delete A Device that has Bound the Permission Group.",
+				"-500233": "Cannot Delete System Roles.",
+				"-500234": "Can not delete users, at lease one administrator required",
+				"-500235": "Same sync is in progress",
+				"-500236": "Risk Area Name is Already Exists",
+				"-500238": "Camera not Exists.",
+				"-500239": "Review Interval Code not Exists",
+				"-500240": "The Camera has Alerady Exists.",
+				"-500242": "Risk Level not set",
+				"-500243": "The Risk Area not Found.",
+				"-500244": "The Risk Area has Already Used.",
+				"-500251": "Review Interval Code not Set.",
+				"-500252": "The Device Already Exists",	
+				"-500253": "The Alarm Group Name Already Exists",
+				"-500254": "Alarm Group Numbers Reach the Quantity Limit",
+				"-500255": "The Default Alarm Group Cannot Delete",
+				"-500256": "The Channel Doesn't Exist",
+				"-500257": "Nvr Name Cannot be Empty",
+				"-500258": "Cannot Delete Group Which has Properties",
+				"-500259": "Default Group Cannot be Deleted",
+				"-500260": "The Group does not Exists",
+				"-500261": "The Property Name has Alerady Exists",
+				"-500262": "The Property Code has Alerady Exists",
+				"-500263": "The Group not Specified",
+				"-500264": "The Group has Alerady Exists",
+				"-500265": "The Property Code Cannot be Modified",
+				"-500266": "There are Associated Alarm Type, Cannot Delete Current Alarm Group",
+				"-500267": "Role Name cannot be Null",
+				"-500271": "The Group has Entity Cannot Delete"
+			}
+		}
+	},
+	"workflowForm":{
+		"notifyMessage":{
+			"errorMessage":{
+				"ERROR_FILE_REPEAT":"Duplicate File Name",
+				"ERROR_FILE_SIZE":"File Size Should Less than ",
+				"ERROR_PICTURE_TYPE":"Only Support Picture",
+				"ERROR_VIDEO_TYPE":"Only Support Video",
+				"ERROR_MAX_PREFIX":"Maximun Upload ",
+				"ERROR_MAX_SUFFIX":" Files"
+			},
+			"successMessage":{
+				"SUCCESS_OPERATION":"Operation Success",
+				"SUCCESS_SAVE_ITEM":"Save Success!"
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"complete":"Complete",
+			"cancel":"Cancel",
+			"close":"Close",
+			"handle":"Handle",
+			"overdueReport":"Excalated",
+			"deadLine":"Dead Line:",
+			"selectDevice":"Select Device",
+			"searchHolder":"Search",
+			"upload":"Upload",
+			"picture":"Picture",
+			"video":"Video",
+			"selectUser":"Select User"
+		},
+		"modals":{
+
+		},
+		"infoLocalization":{
+			"Title":"Title",
+			"HandlerName":"Submit By",
+			"Description":"Description",
+			"DeviceName":"Device",
+			"ZoneName":"Zone",
+			"nextAssignee":"Responsible Person",
+			"deadline":"Time Limit"
+		}
+	},
+	"header":{
+		"labels":{
+			"userInfo":"Information",
+			"logout":"Logout"
+		},
+		"drawer": {
+			"riskMngt": "Risk Management",
+			"assetMngt": "Asset Management",
+			"operationSafety": "Operation Safety",
+			"system": "System",
+			"peoplePosition": "People Positioning",
+			"productSchedule": "Production Scheduling",
+			"tank": "Tank",
+			"repoPoint": "Repo Point",
+
+			"notice": "Notification",
+			"settings": "Settings",
+			"noContent": "No new content now, please check for updates later",
+			"displayDays": "Display Days",
+			"es_notify_risk_review_complete": "{{riskAreaName}} risk review complete, next review time: {{nextReviewDate}}",
+			"es_notify_risk_review_expired": "{{riskAreaName}} risk review expired for {{expiredDays}} days",
+			"es_notify_risk_review_next": "{{riskAreaName}} needs to do risk review in {{nextReviewDays}} days",
+			"es_notify_asset_sync_success": " synchronised successfully",
+			"es_notify_asset_sync_failed": " synchronised failed",
+			"es_notify_asset_nvr_success": "Camera synchronised successfully",
+			"es_notify_asset_nvr_failed": "Camera synchronised failed",
+			"es_notify_ticket_expired": "Work order {{ticketNo}} execution timeout, already escalated",
+			"es_notify_ticket_done": "Work order {{ticketNo}} execution completed",
+			"es_notify_system_backup": "Database {{dbName}} backup complete",
+			"es_notify_system_archiver": "{{dataType}} archive complete",
+			"es_notify_alarm_sos": "SOS Alarm Activated",
+			"es_notify_product_order": "Business Order Schedule Complete",
+			"es_notify_product_process": "Industrial process {{processType}} execution completed",
+
+			"ongoingTask": "Ongoing Tasks",
+			"pendingTask": "Pending Tasks",
+			"es_task_product_process": "Industrial process {{processType}} in progress",
+			"es_task_ticket": "Work order {{ticketType}} in progress",
+			"es_task_asset_sync": " is Synchronising",
+			"es_task_asset_nvr_sync": "Camera is synchronmising",
+			"es_task_product_order": "Business order {{orderNo}} needs to be scheduled",
+			"es_task_risk_review": "{{riskAreaName}} please complete risk re-evaluate today",
+
+			"alarm": "Alarm",
+			"alarmSummary": "Alarm Summary",
+			"newAlarm": "New Alarm!",
+			"GIS_POS_ALARM_OVERCROWDING": "{{alarmDate}} {{alarmSource}} People Amount Alarm {{alarmValue}}",
+			"GIS_POS_ALARM_CROSSBORDER": "{{alarmDate}} {{alarmSource}} Overstep Border Alarm {{alarmValue}}",
+			"GIS_POS_ALARM_STOP": "{{alarmDate}} {{alarmSource}} Motionless Alarm {{alarmValue}}",
+			"GIS_POS_ALARM_SOS": "{{alarmDate}} SOS Alarm {{alarmValue}}"
+		},
+		"notifyMessage": {
+			"Error_Display_Days": "Please enter a positive integer from 1 to 10."
+		}
+	},
+	"home":{
+		"modals":{
+			"changePWDModal":{
+				"tip":"You Must change Password before Use Experion Safettice",
+				"changePWD":"Change Password",
+				"oldPWD":"Original Password",
+				"newPWD":"New Password",
+				"confirm":"Confirm"
+			}
+		}
+	},
+	"forgetPassword":{
+		"notifyMessage":{
+			"errorMessage":{
+
+			},
+			"successMessage":{
+				"SUCCESS_RESET_PWD":"Reset Password Successful, Please Check Email Inbox"
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"return":"Return",
+			"forgetPassword":"Forget Password",
+			"EID":"EID",
+			"EIDTip":"Please Input your EID",
+			"email":"Email",
+			"emailFormatErrorTip":"Invalid Email Format",
+			"emailIsEmpty":"Please Input Your Email Address",
+			"resetPassword":"Reset Password"
+		}
+	},
+	"login": {
+		"account": "Account",
+		"accountPlaceholder": "Email or EID",
+		"password": "Password",
+		"rememberPassword": "Remember Password",
+		"login": "Login",
+		"newAccountRegister": "Register",
+		"forgetPassword": "Forget password",
+		"modals": {
+			"resetPassword": "Reset password",
+			"newPassword": "New password",
+			"inputNewPwd": "Input New Password",
+			"confirmNewPwd": "Confirm New Password",
+			"pleaseConfirmNewPwd": "Input Confirm Password",
+			"passwordError": "Invalid Password"
+		},
+		"notifyMessage": {
+			"USER_NOT_ACCESS": "No Permission!",
+			"USER_NOT_EXIST": "User Not Exists!",
+		  	"USER_EXPIERED": "User Expired, Please Contact Administrator!",
+		  	"USER_LOCKED" :"User Locked, Please Contact Administrator!",
+		  	"USER_OR_PWD_ERROR" :"Login Name or Password Error!",
+		  	"USER_LOGIN_CHANCE_LEFT_TIP": "Account Will be Locked after 0 more times try!",
+		  	"USER_OR_PWD_ERROR_AND_LOCKED" :"Password Error, Account is Locked, Please Contact Administrator!",
+		  	"PWD_NOT_SAME" :"Password and Confirm Password not Match!",
+		  	"NEW_PWD_SUCCESS": "Set New Password Successful!",
+		  	"changePwdError": "Change Password Failed, Faile Code:"
+		}
+	},
+	"register": {
+		"goBack": "Return",
+		"userRegistration": "User Registration",
+		"EID": "EID",
+		"inputEID": "Please Input Your EID",
+		"name": "Name",
+		"inputName": "Please Input Your Name!",
+		"email": "Email",
+		"emailFormatError": "Invalid Email Format!",
+		"inputEmail": "Please Input Email Address!",
+		"phoneNumber": "Phone Number",
+		"inputPhoneNumber": "Please Input Phone Number！",
+		"password": "Password",
+		"comfirmPassword": "Confirm Password",
+		"pleaseComfirmPwd": "Please Input Confirm Password！",
+		"passwordError": "Invalid Password",
+		"register": "Register",
+		"notifyMessage": {
+			"registerSuccess": "Register Successful",
+			"emailExist": "Email Already Exists!",
+			"EIDExist": "EID Already Exist!"
+		}
+	},
+	"resetPassword": {
+		"changePassword": "Change Password",
+		"originalPassword": "Original Password",
+		"newPassword": "New Password"
+	},
+	"videoComponent": {
+		"realTimeMonitoring": "Real-time Monitoring"
+	},
+    "workflowTicketForm":{
+        "stepList":"Step List",
+        "log":"Log",
+        "updateTime":"Update Time",
+        "updateBy":"Update By",
+        "updateItem":"Update Item",
+        "originValue":"Origin Value",
+        "updateValue":"Update Value",
+        "imageUpdate":"Image Update",
+        "videoUpdate":"Video Update",
+        "functions":"Function",
+        "save":"Save",
+        "cancel":"Cancel",
+        "optImageUpload":"Image Upload",
+		"optVideoUpload":"Video/Audio Upload",
+        "notifyMessage":{
+            "errorMessage":{
+                "ERROR_IMAGE_FORMAT":"Image Format Error, Only Support PNG",
+                "ERROR_VIDEO_FORMAT":"Video Format Error, Only Support MP4",
+                "ERROR_FILE_SIZE":"File Size Can not Bigger Than"
+			},
+			"successMessage":{
+                "SUCCESS_UPLOAD":"Upload Success!",
+                "SUCCESS_DELETE":"Delete Success!",
+                "SUCCESS_COMMAND_SEND":"Command Send Success!",
+                "SUCCESS_UPDATE_STEP":"Step Update Success!",
+                "SUCCESS_REFRESH_TANKGAUGE":"Tank Propertie Value Update Success"
+            },
+			"warnMessage":{
+				"WARN_IMAGE_EXIST":"Image Already Exist, Cannot Upload",
+                "WARN_VIDEO_EXIST":"Video Already Exist, Cannot Upload"
+            }
+        }
+    },
+    "CustomizedForm":{
+        "tankGuage":{
+            "description":"Remark"
+        }
+    },
+    "LayoutView":{
+		"notifyMessage":{
+			"errorMessage":{
+
+			},
+			"successMessage":{
+
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"tank":"Tank",
+			"workTicket":"Ticket"
+        },
+		"infoLocalization":{
+			"trendWeek":"Trend of Week",
+			"trendMonth":"Trend of Month",
+			"completeDegree":"Status"
+		}
+    },
+    "OperationLog":{
+        "title":"Operation Log",
+        "labels":{
+            "at":" at ",
+            "user":" user ",
+            "searchTip":"Search Item",
+            "create":" create ",
+            "modify":" modify ",
+            "delete":" delete ",
+            "lock":" lock ",
+            "unlock":" unlock ",
+            "bind":" bind ",
+            "unbind":" unbind ",
+			"import":" import ",
+			"upload":" Upload ",
+			"review":" review ",
+            "setDefault": " set default device ",
+            "reset":" reset(Password) ",
+            "move": " move ",
+            "ack": " acknowledged alarm ",
+            "ackAll": " acknowledged all alarms ",
+            "resolve": " resolved SOS alarm ",
+            "changeValue":"Update Item",
+            "orgValue":"Origin Value",
+            "updateValue":"Current Value"
+        },
+        "featureCode":{
+            "user_mngt":"user ",
+            "report_mngt": "report configuration ",
+            "gis_device_mngt": "GIS Device Management ",
+            "user_associate": "User Associate ",
+			"device_access_right": "Device Access Management ",
+			"datacube_mngt": "Data Cube Management",
+			"gis_map_config": "GIS Map configuration",
+			"area_risk_mngt": "Risk Area Management",
+			"workflow_mngt": "Work Flow Management",
+			"gateway_mngt": "Gateway Management",
+			"gis_position_display": "GIS Position Display",
+			"alarm_display_category": "Alarm Display Category",
+			"role_mngt": "Role Management",
+			"people_access_group_mngt":"People Access Group",
+			"alarm_summary": "Alarm Summary"
+		},
+        "items":{
+            "permanent":"permanent"
+        },
+        "modals":{
+            "noEntityModal":{
+                "title":"No Entity Selected, Please Select an Entity!"
+            }
+        }
+	},
+	"UnAuthorized": {
+		"sorry": "Sorry,",
+		"noAccess": "You Do not Have Permission To Perform this Operation. Please Contact the Administrator If Necessary."
+	}
+}
+
+

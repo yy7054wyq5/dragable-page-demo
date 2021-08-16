@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>cancel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cancel" transform="translate(-4.000000, -4.000000)" fill="#1274B7">
+            <path d="M11,3 L11,9.125 L17,9.125 L17,10.875 L11,10.875 L11,17 L9,17 L9,10.875 L3,10.875 L3,9.125 L9,9.125 L9,3 L11,3 Z" transform="translate(10.000000, 10.000000) rotate(45.000000) translate(-10.000000, -10.000000) "></path>
+        </g>
+    </g>
+</svg>

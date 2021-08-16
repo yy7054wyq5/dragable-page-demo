@@ -1,0 +1,609 @@
+{
+	"englishLang": "英文",
+	"chineseLang": "中文",
+	"common": {
+		"copyRight": "霍尼韦尔国际有限公司版权所有",
+		"cancel": "取消",
+		"confirm": "确认",
+		"delete": "删除",
+		"notDelete": "不删除",
+		"add": "添加",
+		"save":"保存",
+		"search":"搜索",
+		"description":"描述",
+		"filePath": "文件路径",
+		"select": "选择",
+		"operation": "操作",
+		"create": "创建",
+		"help": "帮助",
+		"baseInfo": "基本信息",
+		"name": "名称",
+		"reset":"重置",
+		"reelect": "重选",
+		"allReelect": "全部重选",
+		"continue":"继续",
+		"goBack": "返回",
+		"close":"关闭",
+		"noData": "暂无数据",
+
+		"selector": {
+			"choose": "请选择"
+		},
+
+		"createInfo": {
+			"createdTime": "创建时间：",
+			"lastUpdateTime": "最后更新时间：",
+			"createdBy": "创建人：",
+			"lastUpdateBy": "最近更新人："
+		},
+		"leaveModal": {
+			"leaveTips": "页面上有操作未保存，请问需要继续跳转吗？",
+			"noJump": "不跳转",
+			"notSaveAndJump": "不保存并跳转",
+			"saveAndJump": "保存并跳转"
+		},
+		"deviceProperty": {
+			"dynamic":"动态值",
+			"calculate":"计算值",
+			"tank_level": "液位高度",
+			"mass": "质量",
+			"net_volume": "净体积",
+			"gross_volume": "总体积",
+			"density": "密度",
+			"flow_rate": "流速",
+			"temperature": "温度",
+			"name": "储罐名称",
+			"product": "产品",
+			"capacity": "储罐容积",
+			"status": "储罐状态",
+			"on": "开",
+			"off": "关",
+			"error": "停用",
+			"open": "开",
+			"close": "关",
+			"tank": "储罐",
+			"pump": "泵",
+			"valve": "阀门",
+			"zone": "区域"
+		},
+		"pageTitle": {
+		},
+		"editBox":{
+			"save":"保存",
+			"cancel":"取消"
+		},
+		"operationLog":"操作日志",
+		"pipe":{
+			"hourSuffix":"小时",
+			"minSuffix":"分钟",
+			"lessThanOneMin":"小于1分钟"
+		},
+		"form":{
+			"emailFormatError":"邮箱格式不正确！",
+			"mobileFormatError":"电话格式不正确！"
+		},
+		"alarm": {
+			"urgent": "紧急",
+			"high": "高",
+			"low": "低",
+			"ack": "报警确认",
+			"ackAll": "确认全部",
+			"resolve": "报警解除"
+		},
+		"filter": {
+			"urgent": "紧急",
+			"high": "高",
+			"low": "低",
+			"acknowledged": "已确认",
+			"unAcknowledged": "未确认",
+			"resolved": "已恢复",
+			"unResolved": "未恢复",
+			"SCADA_AE": "SCADA",
+			"Inspection_Mpo": "巡检系统",
+			"gis_cross_border_alarm_service": "越界报警服务",
+			"gis_overcrowding_alarm_service": "超员报警服务",
+			"gis_stop_alarm_service": "静止报警服务",
+			"DANGER_SOURCE": "危险源",
+			"gis_position_service": "定位服务",
+			"resetAll": "全部重选",
+			"confirm": "确认",
+			"reset": "重选",
+			"priorities": "优先级",
+			"systems": "系统",
+			"isAcknowledged": "确认状态",
+			"status": "恢复状态"
+		},
+		"notifyMessage":{
+			"title":{
+				"error":"通知",
+				"success":"成功",
+				"warning":"提示"
+			},
+			"content": {
+				"createSuccess": "创建成功！",
+				"deleteSuccess": "删除成功！",
+				"addSuccess": "添加成功！",
+				"editSuccess": "修改成功！",
+				"saveSuccess": "保存成功！",
+				"updateSuccess": "更新成功！",
+				"uploadSuccess": "上传成功！",
+				"createError": "创建失败！",
+				"deleteError": "删除失败！",
+				"saveError": "保存失败！",
+				"noChange": "没有更改！",
+				"noVideo": "没有找到视频！"
+			},
+			"errorMessage":{
+				"-40000":"未找到资源文件！",
+				"-40001":"参数错误！",
+				"-40003":"操作无权限！",
+				"-40400":"未找到资源",
+				"-40105": "系统已初始化！",
+				"-50000":"服务器错误,请联系管理员！",
+				"-500001":"没有属性设置！",
+				"-500002":"网关服务不存在！",
+				"-500003":"当前储罐已存在！",
+				"-500004":"当前储罐不存在！",
+				"-500005":"当前设备已存在！",
+				"-500006":"当前设备不存在！",
+				"-500007":"命令添加失败！",
+				"-500008":"当前事务不存在！",
+				"-500009":"无效的操作！",
+				"-500010":"设备标识码或名称已存在！",
+				"-500011":"该名称已被其他设备占用！",
+				"-500012":"系统设备不可删除！",
+				"-500013":"网关不存在！",
+				"-500014":"注册文件错误！",
+				"-500015":"无效的网关实体！",
+				"-500016":"该用户不存在！",
+				"-500017":"当前用户已存在！",
+				"-500018":"当前角色不存在！",
+				"-500019":"连接器目标不存在！",
+				"-500020":"内部设备无法删除！",
+				"-500021":"连接器注册文件错误！",
+				"-500022":"未找到请求数据！",
+				"-500023":"当前类别中存在服务，不可直接删除！",
+				"-500024":"当前类别已存在！",
+				"-500025":"当前规则已存在！",
+				"-500026":"当前服务不存在！",
+				"-500027":"当前图片类型已存在！",
+				"-500028":"设备属性名称已存在！",
+				"-500029":"步骤名称已存在！",
+				"-500030":"步骤不存在！",
+				"-500031":"字段名称已存在！",
+				"-500032":"区域名称与存在！",
+				"-500033":"区域中已存在该设备！",
+				"-500034":"该设备存在于其他区域！",
+				"-500035":"级别名字重复！",
+				"-500036":"已分配罐，无法删除！",
+				"-500037":"罐组重名！",
+				"-500038":"工作流步骤不存在！",
+				"-500039":"工作流步骤状态错误！",
+				"-500040":"步骤无权操作！",
+				"-500041":"工作流不存在！",
+				"-500042":"工作流不存在！",
+				"-500043":"命令正在执行中！",
+				"-500044":"角色名称已存在！",
+				"-500045":"储罐产品不存在！",
+				"-500046":"罐组不存在！",
+				"-500047":"储罐产品与罐组产品不匹配！",
+				"-500048":"计划储量超过罐组储量！",
+				"-500049":"订单产品不存在！",
+				"-500050":"计划量超过订单产品储量！",
+				"-500051":"计划起止日期超过订单起止日期！",
+				"-500052":"该计划不存在！",
+				"-500053":"罐组存在计划，不能分配或移除储罐！",
+				"-500054":"步骤未完成！",
+				"-500055":"邮箱已被注册！",
+				"-500056":"服务已被注册！",
+				"-500057":"计划详情不存在！",
+				"-500058":"连接点已被注册！",
+				"-500059":"原罐组溢出或在修改后不足！",
+				"-500060":"默认内部用户角色不存在！",
+				"-500061":"用户已存在！",
+				"-500062":"产品名称已存在！",
+				"-500063":"产品标识码已存在！",
+				"-500064":"产品与储罐绑定，不能删除！",
+				"-500065":"网关未激活",
+				"-500066":"员工号或电子邮件地址错误",
+				"-500067": "数据格式错误！",
+				"-500068": "工艺图类型参数为空！",
+				"-500069": "工艺图类型标识码重复！",
+				"-500070": "工艺图类型名称重复！",
+				"-500071": "该类型下有工艺图，请先删除工艺图！",
+				"-500072": "邮件发送超时",
+				"-500073": "无法删除该通道，请先删除关联的设备",
+				"-500074": "无法删除，因为该类别下有子流程",
+				"-500075": "分配设备到该通道失败！",
+				"-500076": "工作流类别标识码重复！",
+				"-500077": "工作流类名称重复！",
+				"-500078": "工作流配置名称重复！",
+				"-500079": "获取NVR主机失败！",
+				"-500080": "平面图元素类型错误！",
+				"-500081": "平面图元素名称重复！",
+				"-500082": "工作流已存在",
+				"-500083": "有未完成的工作流实例无法更新",
+				"-500084": "该NVR名称已存在",
+				"-500085": "规则不存在",
+				"-500086": "不能删除，该规则已经关联报警级别！",
+				"-500087": "工艺流程不存在",
+				"-500088": "定时任务名称存在，请重新添加",
+				"-500089": "定时任务标识码已存在，请重新添加",
+				"-500090": "调度任务更新失败",
+				"-500091": "调度任务类别名称重复",
+				"-500092": "工艺图复制失败，源文件不存在",
+				"-500093": "不存在此名称的产品！",
+				"-500094": "应用名称已存在！",
+				"-500095": "应用名称为空！",
+				"-500097": "默认角色不存在！",
+				"-500098": "系统初始化元数据不存在!",
+				"-500099": "工艺流程必须包含储罐!",
+				"-500201": "数据立方体组别名称重复",
+				"-500202": "数据立方体名称已存在！",
+				"-500203": "存储过程不存在！",
+				"-500204": "储罐已经被其他工艺流程使用！",
+				"-500205": "报表名已存在！",
+                "-500206": "报表标识码重复！",
+                "-500207": "报表类型名称已存在！",
+				"-500208": "不可删除系统创建的应用服务类型！",
+				"-500209": "不可删除拥有应用服务的应用服务类型！",
+				"-500210": "应用服务类型名称重复！",
+				"-500211": "报表未配置数据立方体",
+				"-500212": "表格导出失败",
+				"-500213": "表格导入失败",
+				"-500214": "表格有重复数据",
+				"-500223": "不可删除已分配报警规则的报警级别类型！",
+				"-500224": "数据立方体状态不处于已提交状态",
+				"-500225": "数据立方体已被报表占用不能删除",
+				"-500226": "数据立方体已被报表占用不能更新状态",
+				"-500227": "在系统中找不到对应标识码！",
+				"-500228": "不能修改正在执行的工作流程！",
+				"-500229": "围栏名称已经存在",
+				"-500230": "无法删除已经绑定的设备",
+				"-500231": "设备访问权限组名称已存在",
+				"-500232": "无法删除已经绑定权限组的设备",
+				"-500233": "无法删除系统角色",
+				"-500234": "无法删除用户，至少需要一个管理员",
+				"-500235": "该设备正在同步",
+				"-500236": "名称已经存在",
+				"-500237": "无可用摄像设备",
+				"-500238": "摄像头不存在",
+				"-500239": "复评间隔代码不存在",
+				"-500240": "摄像头已配置",
+				"-500242": "未设置风险等级",
+				"-500243": "风险区域不存在",
+                "-500244": "该风险区域已经被使用",
+				"-500251": "未配置复评时间间隔",	
+				"-500252": "设备已经存在",	
+				"-500253": "报警分类名称已存在",	
+				"-500254": "报警分类创建数量已达上限",	
+				"-500255": "默认分类不允许删除",
+				"-500256": "通道不存在",
+				"-500257": "NVR名称不能为空",
+				"-500258": "无法删除配置了属性的分组",
+				"-500259": "默认分组不能删除",
+				"-500260": "分组不存在",
+				"-500261": "属性名已存在",
+				"-500262": "属性识别符已存在",
+				"-500263": "分组未指定",
+				"-500264": "分组已存在",
+				"-500265": "属性识别符不能修改",
+				"-500266": "存在已关联的报警类型,无法删除当前报警分类",
+				"-500267": "角色名称不能为空",
+				"-500271": "不可删除已关联用户或围栏的权限组"
+			}
+		}
+	},
+	"workflowForm":{
+		"notifyMessage":{
+			"errorMessage":{
+				"ERROR_FILE_REPEAT":"文件名重复",
+				"ERROR_FILE_SIZE":"附件大小不能大于",
+				"ERROR_PICTURE_TYPE":"只支持图片",
+				"ERROR_VIDEO_TYPE":"只支持视频",
+				"ERROR_MAX_PREFIX":"最多上传",
+				"ERROR_MAX_SUFFIX":"个文件"
+			},
+			"successMessage":{
+				"SUCCESS_OPERATION":"操作成功！",
+				"SUCCESS_SAVE_ITEM":"保存成功！"
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"complete":"完成",
+			"cancel":"取消",
+			"close":"关闭",
+			"handle":"处理",
+			"overdueReport":"超时上报",
+			"deadLine":"时限：",
+			"selectDevice":"请选择设备",
+			"searchHolder":"请搜索",
+			"upload":"点击上传",
+			"picture":"图片",
+			"video":"视频",
+			"selectUser":"请选择用户"
+		},
+		"modals":{
+
+		},
+		"infoLocalization":{
+			"Title":"标题",
+			"HandlerName":"处理人",
+			"Description":"描述",
+			"DeviceName":"设备名称",
+			"ZoneName":"区域名称",
+			"nextAssignee":"责任人",
+			"deadline":"处理日期"
+		}
+	},
+	"header":{
+		"labels":{
+			"userInfo":"用户信息",
+			"logout":"注销"
+		},
+		"drawer": {
+			"riskMngt": "风险管理",
+			"assetMngt": "资产管理",
+			"operationSafety": "安全作业",
+			"system": "系统",
+			"peoplePosition": "人员定位",
+			"productSchedule": "生产调度",
+			"tank": "储罐",
+			"repoPoint": "绑定点",
+
+			"notice": "通知事项",
+			"settings": "通知设置",
+			"noContent": "现在没有新内容，请稍后查看是否有更新",
+			"displayDays": "显示天数",
+			"es_notify_risk_review_complete": "{{riskAreaName}}复评完成，下次复评时间：{{nextReviewDate}}",
+			"es_notify_risk_review_expired": "{{riskAreaName}}复评已过期{{expiredDays}}天",
+			"es_notify_risk_review_next": "{{riskAreaName}}距离下次复评还有{{nextReviewDays}}天",
+			"es_notify_asset_sync_success": "同步成功",
+			"es_notify_asset_sync_failed": "同步失败",
+			"es_notify_asset_nvr_success": "摄像头同步成功",
+			"es_notify_asset_nvr_failed": "摄像头同步失败",
+			"es_notify_ticket_expired": "工单{{ticketNo}}执行超时, 已上报",
+			"es_notify_ticket_done": "工单{{ticketNo}}执行完毕",
+			"es_notify_system_backup": "数据库{{dbName}}备份完成",
+			"es_notify_system_archiver": "{{dataType}}归档完成",
+			"es_notify_alarm_sos": "紧急求助报警触发",
+			"es_notify_product_order": "订单排期完毕",
+			"es_notify_product_process": "工艺流程{{processType}}执行完成",
+
+			"ongoingTask": "进行中任务",
+			"pendingTask": "待处理任务",
+			"es_task_product_process": "正执行{{processType}}工艺流程",
+			"es_task_ticket": "正执行{{ticketType}}工单",
+			"es_task_asset_sync": "正在同步",
+			"es_task_asset_nvr_sync": "摄像头正在同步",
+			"es_task_product_order": "订单{{orderNo}}需要进行排期",
+			"es_task_risk_review": "{{riskAreaName}}请进行复评",
+
+			"alarm": "报警提示",
+			"alarmSummary": "报警总览",
+			"newAlarm": "有新的报警！",
+			"GIS_POS_ALARM_OVERCROWDING": "{{alarmDate}} {{alarmSource}} 人员报警 {{alarmValue}}",
+			"GIS_POS_ALARM_CROSSBORDER": "{{alarmDate}} {{alarmSource}} 越界报警 {{alarmValue}}",
+			"GIS_POS_ALARM_STOP": "{{alarmDate}} {{alarmSource}} 静止报警 {{alarmValue}}",
+			"GIS_POS_ALARM_SOS": "{{alarmDate}} 紧急求助报警 {{alarmValue}}"
+		},
+		"notifyMessage": {
+			"Error_Display_Days": "请输入1～10的正整数!"
+		}
+	},
+	"home":{
+		"modals":{
+			"changePWDModal":{
+				"tip":"用户第一次登录需要修改原始密码！",
+				"changePWD":"修改密码",
+				"oldPWD":"原始密码",
+				"newPWD":"新密码",
+				"confirm":"确认"
+			}
+		}
+	},
+	"forgetPassword":{
+		"notifyMessage":{
+			"errorMessage":{
+
+			},
+			"successMessage":{
+				"SUCCESS_RESET_PWD":"重置密码成功，请查看邮箱！"
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"return":"返回",
+			"forgetPassword":"忘记密码",
+			"EID":"员工号",
+			"EIDTip":"请输入您的EID",
+			"email":"邮箱",
+			"emailFormatErrorTip":"邮箱格式不正确！",
+			"emailIsEmpty":"请输入您的邮箱！",
+			"resetPassword":"重置密码"
+		}
+	},
+	"login": {
+		"account": "账号",
+		"accountPlaceholder": "邮箱 或 员工号",
+		"password": "密码",
+		"rememberPassword": "记住密码",
+		"login": "登录",
+		"newAccountRegister": "新用户注册",
+		"forgetPassword": "忘记密码",
+		"modals": {
+			"resetPassword": "重置密码",
+			"newPassword": "新密码",
+			"inputNewPwd": "请输入您的新密码",
+			"confirmNewPwd": "新密码确认",
+			"pleaseConfirmNewPwd": "请确认您的密码！",
+			"passwordError": "密码不正确！"
+		},
+		"notifyMessage": {
+			"USER_NOT_ACCESS": "账户无权限！",
+			"USER_NOT_EXIST": "账户不存在！",
+			"USER_EXPIERED": "您的账户已过期，请联系管理员进行续期！",
+			"USER_LOCKED" :"您的帐户已被锁定，请联系管理员进行解锁！",
+			"USER_OR_PWD_ERROR" :"用户名或密码错误！",
+			"USER_LOGIN_CHANCE_LEFT_TIP": "您还有0次尝试机会，之后账户会被锁定！",
+			"USER_OR_PWD_ERROR_AND_LOCKED" :"用户名或密码错误，您的账户已被锁定，请联系管理员进行账户解锁或将密码重置！",
+			"PWD_NOT_SAME" :"新密码与确认密码不匹配！",
+			"NEW_PWD_SUCCESS": "新密码设置成功，即将跳转！",
+			"changePwdError": "修改密码失败，失败码："
+		}
+	},
+	"register": {
+		"goBack": "返回",
+		"userRegistration": "用户注册",
+		"EID": "员工号",
+		"inputEID": "请输入您的员工号",
+		"name": "姓名",
+		"inputName": "请输入您的姓名！",
+		"email": "邮箱",
+		"emailFormatError": "邮箱格式不正确！",
+		"inputEmail": "请输入您的邮箱！",
+		"phoneNumber": "电话",
+		"inputPhoneNumber": "请输入电话号码！",
+		"password": "密码",
+		"inputPassword": "请输入您的密码",
+		"comfirmPassword": "再次确认密码",
+		"pleaseComfirmPwd": "请确认您的密码！",
+		"passwordError": "密码不正确！",
+		"register": "注册",
+		"notifyMessage": {
+			"registerSuccess": "注册成功，请登录！",
+			"emailExist": "该邮箱已存在！",
+			"EIDExist": "该员工号已存在！"
+		}
+	},
+	"resetPassword": {
+		"changePassword": "修改密码",
+		"originalPassword": "原始密码",
+		"newPassword": "新密码"
+	},
+	"videoComponent": {
+		"realTimeMonitoring": "实时监控"
+	},
+	"workflowTicketForm":{
+		"stepList":"步骤列表",
+		"log":"日志",
+		"updateTime":"修改时间",
+		"updateBy":"修改人",
+		"updateItem":"修改项",
+		"originValue":"原始值",
+		"updateValue":"修改值",
+		"imageUpdate":"图片上传",
+		"videoUpdate":"视频上传",
+		"functions":"功能",
+		"save":"保存",
+		"cancel":"关闭",
+		"optImageUpload":"图片上传",
+		"optVideoUpload":"视频/音频上传",
+		"notifyMessage":{
+			"errorMessage":{
+				"ERROR_IMAGE_FORMAT":"图片文件类型错误，只支持PNG格式",
+				"ERROR_VIDEO_FORMAT":"音频文件类型错误，只支持MP4格式",
+				"ERROR_FILE_SIZE":"附件大小不能大于"
+			},
+			"successMessage":{
+                "SUCCESS_UPLOAD":"上传成功！",
+                "SUCCESS_DELETE":"删除成功！",
+                "SUCCESS_COMMAND_SEND":"命令发送成功！",
+                "SUCCESS_UPDATE_STEP":"步骤更新成功！",
+                "SUCCESS_REFRESH_TANKGAUGE":"储罐信息同步成功"
+            },
+			"warnMessage":{
+				"WARN_IMAGE_EXIST":"图片已存在，不能重复上传",
+				"WARN_VIDEO_EXIST":"视频已存在，不能重复上传"
+			}
+		}
+	},
+    "CustomizedForm":{
+        "tankGuage":{
+            "description":"备注"
+        }
+    },
+    "LayoutView":{
+		"notifyMessage":{
+			"errorMessage":{
+
+			},
+			"successMessage":{
+
+			},
+			"warnMessage":{
+
+			}
+		},
+		"labels":{
+			"tank":"储罐",
+			"workTicket":"工单"
+        },
+		"infoLocalization":{
+			"trendWeek":"当周趋势",
+			"trendMonth":"当月趋势",
+			"completeDegree":"完成度"
+		}
+    },
+    "OperationLog":{
+        "title":"操作日志",
+        "labels":{
+            "at":" 在 ",
+            "user":"用户 ",
+            "searchTip":"查找项目",
+            "create":" 创建了",
+            "modify":" 修改了",
+            "delete":" 删除了",
+            "lock":" 锁定了",
+            "unlock":" 解锁了",
+            "bind":" 绑定了",
+            "unbind":" 解绑了",
+			"import":" 导入了",
+			"upload":" 上传了",
+			"review":" 复评了",
+            "setDefault": " 设置默认设备为",
+            "reset":"重置(密码)了",
+            "move": "移动了",
+            "ack": "确认了报警",
+            "ackAll": "确认了全部报警",
+            "resolve": "解除了SOS报警",
+            "changeValue":"修改内容",
+            "orgValue":"原始值",
+            "updateValue":"更新值"
+        },
+        "featureCode":{
+            "user_mngt":"用户 ",
+            "report_mngt": "报表配置 ",
+            "gis_device_mngt": "智能终端管理 ",
+            "user_associate": "人员关联 ",
+			"device_access_right": "设备访问权限组 ",
+			"datacube_mngt": "数据立方体管理",
+			"gis_map_config": "地图设置",
+			"area_risk_mngt": "风险区域管理",
+			"workflow_mngt": "工作流管理",
+			"gateway_mngt": "网管管理",
+			"gis_position_display": "定位展示",
+			"alarm_display_category": "报警分类",
+			"role_mngt": "角色管理",
+			"people_access_group_mngt":"人员访问权限组",
+			"alarm_summary": "报警总览"
+	    },
+        "items":{
+            "permanent":"永久"
+        },
+        "modals":{
+            "noEntityModal":{
+                "title":"没有实体被选中，请选择实体后再预览操作日志"
+            }
+        }
+    },
+	"UnAuthorized": {
+		"sorry": "抱歉，",
+		"noAccess": "您暂无权限进行该操作，如果有需要请联系管理员。"
+	}
+}

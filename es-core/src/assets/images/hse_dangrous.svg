@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="19px" viewBox="0 0 23 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.5862069,0 L29.5862069,18.2068966 L7.5862069,18.2068966 L18.5862069,0 Z M10.8242226,16.3862069 L26.3481912,16.3862069 L18.5862069,3.5387846 L10.8242226,16.3862069 Z M18.5862069,15.4758621 C18.0799459,15.4758621 17.6695402,15.0682868 17.6695402,14.5655172 C17.6695402,14.0627477 18.0799459,13.6551724 18.5862069,13.6551724 C19.0924679,13.6551724 19.5028736,14.0627477 19.5028736,14.5655172 C19.5028736,15.0682868 19.0924679,15.4758621 18.5862069,15.4758621 Z M17.3639847,8.19310345 L19.8084291,8.19310345 L19.197318,12.7448276 L17.9750958,12.7448276 L17.3639847,8.19310345 Z" id="path-1"></path>
+    </defs>
+    <g id="HSE-new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="old--card" transform="translate(-240.000000, -1000.000000)">
+            <g id="编组-3" transform="translate(70.000000, 617.000000)">
+                <g id="Icon-/-Notification-/-Super-Critical-/-56px" transform="translate(163.000000, 383.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FF7929" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

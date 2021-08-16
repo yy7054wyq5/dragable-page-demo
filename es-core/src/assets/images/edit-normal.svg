@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.0814755,3.58147545 L11.0814755,21.5814755 L15.0814755,21.5814755 L15.0814755,3.58147545 L11.0814755,3.58147545 Z M17.0814755,23.5814755 L13.0814755,27.5814755 L9.08147545,23.5814755 L9.08147545,1.58147545 L17.0814755,1.58147545 L17.0814755,23.5814755 Z M9.08147545,-1.41852455 L17.0814755,-1.41852455 L17.0814755,0.581475452 L9.08147545,0.581475452 L9.08147545,-1.41852455 Z" id="path-1"></path>
+    </defs>
+    <g id="role" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Role-management-01-0619" transform="translate(-1853.000000, -191.000000)">
+            <g id="Icon-/-Tint-/-Actionable---Light-Background-/-Active" transform="translate(1851.000000, 191.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#303030" fill-rule="nonzero" transform="translate(13.081475, 13.081475) rotate(-315.000000) translate(-13.081475, -13.081475) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9,18 L10,18 L10,11 L9,11 L9,18 Z M14,18 L15,18 L15,11 L14,11 L14,18 Z M11.529,17.989 L12.529,17.989 L12.529,11.021 L11.529,11.021 L11.529,17.989 Z M6,20 L18.001,20 L18.001,8 L6,8 L6,20 Z M7,19 L17,19 L17,9 L7,9 L7,19 Z M9.0004,3.9998 L9.0004,5.9998 L4.0004,5.9998 L4.0004,7.0008 L20.0004,7.0008 L20.0004,5.9998 L14.9994,5.9998 L14.9994,3.9998 L9.0004,3.9998 Z M10.0004,5.9998 L14.0004,5.9998 L14.0004,4.9998 L10.0004,4.9998 L10.0004,5.9998 Z" id="path-1"></path>
+    </defs>
+    <g id="参数配置" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Parameter-configuration3_DatePicker1" transform="translate(-496.000000, -360.000000)">
+            <g id="Actions-/-Delete-/-16px" transform="translate(492.000000, 356.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#303030" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <g id="*Style*-/-Icon-/-Tint-/-Actionable---Light-Background-/-Pressed" mask="url(#mask-2)" fill="#707070" fill-rule="evenodd">
+                    <g id="*Style*-/-Color-/-Action-/-Secondary-Pressed">
+                        <rect id="Light-Theme" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "$schema": "../node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "es-dynamic-content-demo": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "library",
+      "prefix": "es",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      }
+    }
+  },
+  "defaultProject": "es-dynamic-content-demo"
+}

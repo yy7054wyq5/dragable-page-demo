@@ -1,0 +1,50 @@
+<form
+  *ngIf="configerForm"
+  nz-form
+  [nzLayout]="'inline'"
+  [formGroup]="configerForm"
+>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="label" nzRequired="true"
+      >Label</nz-form-label
+    >
+    <nz-form-control [nzSpan]="16" nzErrorTip="请输入label">
+      <input nz-input type="text" formControlName="label" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="name" nzRequired="true"
+      >Name</nz-form-label
+    >
+    <nz-form-control [nzSpan]="16" nzErrorTip="请输入name">
+      <input nz-input type="text" formControlName="name" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="value">Value</nz-form-label>
+    <nz-form-control [nzSpan]="16">
+      <input nz-input type="text" formControlName="value" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="placeholder">Placeholder</nz-form-label>
+    <nz-form-control [nzSpan]="16">
+      <input nz-input type="text" formControlName="placeholder" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="8" nzFor="data">Data</nz-form-label>
+    <nz-form-control [nzSpan]="16">
+      <textarea
+        cols="20"
+        rows="4"
+        nz-input
+        type="text"
+        formControlName="data"
+        placeholder="下拉框必填，[{'label': 'aa','value': 1}]，将单引号换为双引号"
+      ></textarea>
+    </nz-form-control>
+  </nz-form-item>
+</form>
+
+<!-- [{"label": "aa","value": 1}] -->

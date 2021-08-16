@@ -1,0 +1,99 @@
+<div class="drag-layout">
+  <section class="drag-layout-todo-container">
+    <!-- 配置布局 -->
+    <div
+      class="drag-layout-todo-list"
+      cdkDropList
+      [cdkDropListSortingDisabled]="true"
+      [cdkDropListData]="todoLayout"
+      [cdkDropListConnectedTo]="crtTab.id"
+      (cdkDropListDropped)="itemDropped($event, todoLayout)"
+      (cdkDropListExited)="exited($event, todoLayout)"
+    >
+      <div
+        class="drag-layout-todo-item"
+        *ngFor="let item of todoLayout"
+        cdkDrag
+      >
+        <div class="drag-layout-todo-placeholder" *cdkDragPlaceholder>
+          {{ item.typeName }}
+        </div>
+        {{ item.typeName }}
+      </div>
+    </div>
+    <!-- 配置控件 -->
+    <div
+      class="drag-layout-todo-list"
+      cdkDropList
+      [cdkDropListSortingDisabled]="true"
+      [cdkDropListData]="todo"
+      [cdkDropListConnectedTo]="crtTab.cellIds"
+      (cdkDropListDropped)="itemDropped($event, todo)"
+      (cdkDropListExited)="exited($event, todo)"
+    >
+      <div class="drag-layout-todo-item" *ngFor="let item of todo" cdkDrag>
+        <div class="drag-layout-todo-placeholder" *cdkDragPlaceholder>
+          {{ item.typeName }}
+        </div>
+        {{ item.typeName }}
+      </div>
+    </div>
+  </section>
+
+  <nz-tabset [nzType]="'card'" [nzTabBarExtraContent]="extraTemplate">
+    <nz-tab
+      *ngFor="let tab of tabs; index as i"
+      [nzTitle]="titleTemplate"
+      (nzClick)="clickTab(tab)"
+    >
+      <ng-template #titleTemplate>
+        <!-- (dbclick)="tab.edit = !tab.edit" -->
+        <div>
+          <span *ngIf="!tab.edit">
+            {{ tab.title }}
+          </span>
+          <input
+            nz-input
+            *ngIf="tab.edit"
+            nzSize="small"
+            [(ngModel)]="tab.title"
+            type="text"
+          />
+          <i
+            nz-icon
+            nzType="close"
+            (click)="closeTab(i)"
+            class="ant-tabs-close-x"
+          ></i>
+        </div>
+      </ng-template>
+      <div class="drag-layout-done-container">
+        <es-drag-layout
+          [dragging]="todoDragging"
+          [id]="tab.id"
+          [placeholder]="'在此配置表单'"
+          (itemEdited)="
+            configFormItem($event.item, {
+              targets: $event.items,
+              currentIndex: $event.crtIndex,
+              isHandelConfig: true
+            })
+          "
+          [rows]="tab.rows"
+          [rowEditedEnable]="true"
+          (rowEdited)="configRow($event)"
+          (itemDropped)="itemDropped($event.info, $event.items)"
+          (rowDropped)="rowDropped($event)"
+          (rowsChange)="tab.rows = $event"
+          (cellIdsChange)="cellIdsChange($event, tab)"
+        ></es-drag-layout>
+      </div>
+    </nz-tab>
+  </nz-tabset>
+  <ng-template #extraTemplate>
+    <i class="ant-tabs-new-tab" nz-icon nzType="plus" (click)="newTab()"></i>
+  </ng-template>
+  <pre style="color: black; text-align: left; font-size: 12px;">
+    {{ crtTab.rows | json }}
+  </pre>
+</div>

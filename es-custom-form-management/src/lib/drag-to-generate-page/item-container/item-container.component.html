@@ -1,0 +1,29 @@
+<div *ngIf="showItemLabel">{{ data.label }}:</div>
+<div [ngSwitch]="data.type">
+  <div *ngSwitchCase="DraggedItemType.select">
+    <nz-select
+      nzSize="small"
+      [(ngModel)]="data.value"
+      name="{{ data.name }}"
+      nzPlaceHolder="{{ data.placeholder }}"
+      nzAllowClear
+    >
+      <nz-option
+        *ngFor="let item of data.data"
+        [nzLabel]="item.label"
+        [nzValue]="item.value"
+      >
+      </nz-option>
+    </nz-select>
+  </div>
+  <div *ngSwitchDefault>
+    <input
+      nzSize="small"
+      nz-input
+      type="text"
+      placeholder="{{ data.placeholder }}"
+      [(ngModel)]="data.value"
+      [name]="data.name"
+    />
+  </div>
+</div>

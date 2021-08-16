@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icon / Notification / Success / 32px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M50,84.7222222 C69.1765538,84.7222222 84.7222222,69.1765538 84.7222222,50 C84.7222222,30.8234462 69.1765538,15.2777778 50,15.2777778 C30.8234462,15.2777778 15.2777778,30.8234462 15.2777778,50 C15.2777778,69.1765538 30.8234462,84.7222222 50,84.7222222 Z M50,91.6666667 C26.9881354,91.6666667 8.33333333,73.0118646 8.33333333,50 C8.33333333,26.9881354 26.9881354,8.33333333 50,8.33333333 C73.0118646,8.33333333 91.6666667,26.9881354 91.6666667,50 C91.6666667,73.0118646 73.0118646,91.6666667 50,91.6666667 Z M63.1697681,35.9004855 L68.0802319,40.8109493 L44.7916667,64.0995145 L31.9197681,51.2276159 L36.8302319,46.3171522 L44.7916667,54.278587 L63.1697681,35.9004855 Z" id="path-1"></path>
+    </defs>
+    <g id="Application-Settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Application-Settings-API3" transform="translate(-958.000000, -317.000000)">
+            <g id="Icon-/-Notification-/-Success-/-32px" transform="translate(950.000000, 309.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Icon-/-Tint-/-Success" mask="url(#mask-2)" fill="#7EB338" fill-rule="evenodd">
+                    <g id="*Style*-/-Color-/-Status-/-Success">
+                        <rect id="All-Themes" x="0" y="0" width="101.161859" height="101.161859"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

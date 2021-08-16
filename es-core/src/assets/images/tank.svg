@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54 (76480) - https://sketchapp.com -->
+    <title>编组 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="user" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="User-management-01-empty" transform="translate(-28.000000, -683.000000)" fill="#FFFFFF">
+            <g id="编组-3" transform="translate(28.500000, 683.000000)">
+                <rect id="矩形" x="16.5" y="0" width="4" height="2"></rect>
+                <rect id="矩形" transform="translate(7.000000, 13.500000) scale(1, -1) translate(-7.000000, -13.500000) " x="6.5" y="13" width="1" height="1"></rect>
+                <rect id="矩形" transform="translate(7.000000, 8.500000) scale(1, -1) translate(-7.000000, -8.500000) " x="6.5" y="5" width="1" height="7"></rect>
+                <rect id="矩形" x="5.5" y="16" width="14" height="6"></rect>
+                <path d="M2.5,3 L22.5,3 L22.5,25 L2.5,25 L2.5,3 Z M4.5,5 L4.5,23 L20.5,23 L20.5,5 L4.5,5 Z" id="矩形" fill-rule="nonzero"></path>
+                <polygon id="直线-4" fill-rule="nonzero" points="0 25 25 25 25 24 0 24"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

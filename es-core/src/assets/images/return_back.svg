@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>return</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8.23470064 0.000402270594 0 9.01327493 8.23470064 18 8.97112101 17.319157 1.82204008 9.51611317 23.9996998 9.51611317 23.9996998 8.51043669 1.81903837 8.51043669 8.97112101 0.681245251"></polygon>
+    </defs>
+    <g id="报警总览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="alarm-history" transform="translate(-104.000000, -99.000000)">
+            <g id="return" transform="translate(104.000000, 99.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#303030" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

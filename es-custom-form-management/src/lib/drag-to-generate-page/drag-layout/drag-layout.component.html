@@ -1,0 +1,78 @@
+<section
+  class="drag-layout-container"
+  cdkDropList
+  [id]="id"
+  [cdkDropListData]="dragRows"
+  (cdkDropListDropped)="rowLayoutDropped($event)"
+>
+  <p *ngIf="!dragRows.length">{{ placeholder }}</p>
+  <div
+    cdkDrag
+    class="drag-layout-row"
+    *ngFor="let row of dragRows; index as rowIndex"
+  >
+    <!-- 表头 -->
+    <section
+      class="drag-layout-table-header-container"
+      *ngIf="row.type === DraggedItemType.grid"
+    >
+      <div *ngFor="let cell of row.cells">
+        <ng-container *ngIf="cell.items && cell.items.length">
+          {{ cell.items[0].label }}
+        </ng-container>
+      </div>
+    </section>
+    <section class="drag-layout-cell-container">
+      <div
+        class="drag-layout-cell"
+        *ngFor="let cell of row.cells"
+        cdkDropList
+        [id]="cell.id"
+        [cdkDropListConnectedTo]="cell.connectedIds"
+        [cdkDropListData]="cell.items"
+        (cdkDropListDropped)="formItemDropped($event, cell.items)"
+      >
+        <div
+          class="drag-layout-cell-item"
+          cdkDrag
+          *ngFor="let item of cell.items; index as cellIndex"
+        >
+          <es-item-container
+            [showItemLabel]="row.type !== DraggedItemType.grid"
+            [data]="item"
+          ></es-item-container>
+          <div class="btns">
+            <i
+              nz-icon
+              nzType="edit"
+              nzTheme="outline"
+              (click)="editItem(item, cell.items, cellIndex)"
+            ></i>
+            <i
+              nz-icon
+              nzType="delete"
+              nzTheme="outline"
+              (click)="removeItem(cellIndex, cell.items)"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="drag-layout-row-btns" style="font-size: 24px;">
+      <i
+        class="drag-layout-row-remove"
+        nz-icon
+        nzType="delete"
+        nzTheme="outline"
+        (click)="removeRow(rowIndex)"
+      ></i>
+      <i
+        *ngIf="rowEditedEnable"
+        nz-icon
+        nzType="edit"
+        nzTheme="outline"
+        (click)="editRow(row, rowIndex)"
+      ></i>
+    </div>
+  </div>
+</section>
