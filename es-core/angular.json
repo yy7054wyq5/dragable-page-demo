@@ -26,22 +26,9 @@
                 "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
                 "output": "/assets/"
               },
-              {
-                "glob": "**/*",
-                "input": "../node_modules/es-mxgraph/src",
-                "output": "/assets"
-              },
-              {
-                "glob": "**/*",
-                "input": "../node_modules/es-mxgraph-editor",
-                "output": "/assets"
-              },
+
               "src/assets",
-              {
-                "glob": "**/*",
-                "input": "../node_modules/es-core-shared/assets",
-                "output": "/assets"
-              },
+
               {
                 "glob": "**/*",
                 "input": "../es-dynamic-content-demo/src/assets/dynamic-content-demo",
@@ -53,116 +40,8 @@
                 "output": "/assets/"
               }
             ],
-            "styles": [
-              "../node_modules/ng-zorro-antd/src/ng-zorro-antd.css",
-              {
-                "input": "../node_modules/video.js/dist/video-js.css",
-                "lazy": true,
-                "bundleName": "videocss"
-              },
-              "src/assets/css/es-base.scss"
-            ],
-            "scripts": [
-              {
-                "input": "../node_modules/es-core-shared/assets/js/mxgraph.conf.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Init.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/deflate/pako.min.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/deflate/base64.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/jscolor/jscolor.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/sanitizer/sanitizer.min.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph/mxClient.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/EditorUi.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Editor.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Graph.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Sidebar.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Format.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Shapes.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Actions.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Menus.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Toolbar.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              {
-                "input": "../node_modules/es-mxgraph-editor/js/Dialogs.js",
-                "lazy": true,
-                "bundleName": "graph"
-              },
-              "../node_modules/jquery/dist/jquery.min.js",
-              "../node_modules/echarts/dist/echarts.min.js",
-              {
-                "input": "../node_modules/video.js/dist/video.min.js",
-                "lazy": true,
-                "bundleName": "video"
-              },
-              {
-                "input": "../node_modules/videojs-flash/dist/videojs-flash.min.js",
-                "lazy": true,
-                "bundleName": "video"
-              },
-              "../node_modules/sockjs-client/dist/sockjs.js",
-              "../node_modules/@stomp/stompjs/lib/stomp.js"
-            ],
+            "styles": ["../node_modules/ng-zorro-antd/src/ng-zorro-antd.css"],
+            "scripts": [],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -271,10 +150,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "styles": [
-              "../node_modules/ng-zorro-antd/src/ng-zorro-antd.css",
-              "src/assets/css/es-base.scss"
-            ],
+            "styles": ["../node_modules/ng-zorro-antd/src/ng-zorro-antd.css"],
             "scripts": [],
             "assets": ["src/favicon.ico", "src/assets"]
           }

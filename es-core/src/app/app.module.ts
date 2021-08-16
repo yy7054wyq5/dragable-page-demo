@@ -8,7 +8,6 @@ import {
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule, ReactiveFormsModule, NgModel } from "@angular/forms";
 
-import { StSharedModule } from "es-core-shared";
 import { environment } from "../environments";
 import { AppComponent } from "./app.component";
 import { AppRoutingModule } from "./app-routing.module";

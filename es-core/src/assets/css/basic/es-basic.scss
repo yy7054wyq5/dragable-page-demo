@@ -1,8 +1,0 @@
-/* 重置button公共的状态，在不加载主题的时候，给所有页面用到的基础样式*/
-button[disabled] {
-	background-color: #999 !important;
-	background: #999 !important;
-	border-color: #999 !important;
-	color: #fff !important;
-	cursor: not-allowed;
-}
